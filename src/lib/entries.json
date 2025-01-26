@@ -1,0 +1,81 @@
+[
+  {
+    "name": "first order logic",
+    "href": "/first-order-logic",
+    "children": [
+      {
+        "name": "propositions",
+        "href": "/propositions",
+        "children": []
+      },
+      {
+        "name": "logical or",
+        "href": "/logical-or",
+        "children": []
+      },
+      {
+        "name": "logical and",
+        "href": "/logical-and",
+        "children": []
+      },
+      {
+        "name": "conditional",
+        "href": "/conditional",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "second order logic",
+    "href": "/second-order-logic",
+    "children": [
+      {
+        "name": "existential quantifier",
+        "href": "/existential-quantifier",
+        "children": []
+      },
+      {
+        "name": "predicates",
+        "href": "/predicates",
+        "children": []
+      },
+      {
+        "name": "universal quantifier",
+        "href": "/universal-quantifier",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "converting between logic and language",
+    "href": "/converting-between-logic-and-language",
+    "children": [
+      {
+        "name": "common english fallacies",
+        "href": "/common-english-fallacies",
+        "children": []
+      },
+      {
+        "name": "common english phrases",
+        "href": "/common-english-phrases",
+        "children": []
+      }
+    ]
+  },
+  {
+    "name": "arguments",
+    "href": "/arguments",
+    "children": [
+      {
+        "name": "kinds of arguments",
+        "href": "/kinds-of-arguments",
+        "children": []
+      },
+      {
+        "name": "sound arguments",
+        "href": "/sound-arguments",
+        "children": []
+      }
+    ]
+  }
+]
