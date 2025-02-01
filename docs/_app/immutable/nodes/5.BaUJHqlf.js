@@ -1,0 +1,1 @@
+import{t as a,a as e}from"../chunks/disclose-version.DTvZAd8s.js";import"../chunks/legacy.B-Hchwdh.js";import{n as p}from"../chunks/runtime.Dt9lcHDz.js";function i(t){p();var o=a("About Page");e(t,o)}export{i as component};
