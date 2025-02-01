@@ -1,6 +1,6 @@
 import { getSource } from "$lib/page/loadpage.server";
 
-export function load({ fetch, url }) {
+export function load({ url }) {
 
-    return getSource(fetch, url);
+    return getSource(url);
 }
