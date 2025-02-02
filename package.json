@@ -39,6 +39,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.15",
+		"@xmldom/xmldom": "^0.9.7",
 		"mathjax": "^3.2.2",
 		"mathjax-full": "^3.2.2"
 	}

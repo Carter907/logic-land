@@ -1,5 +1,6 @@
-<script>
-  import Markdown from "@magidoc/plugin-svelte-marked";
+<script lang="ts">
+  import { marked } from "marked";
+  import Mathjax from "$lib/mathjax/Mathjax.svelte";
   import loadMathJax from "$lib/mathjax/mathjax.svelte";
 
   let { data } = $props();
@@ -7,4 +8,4 @@
   loadMathJax();
 </script>
 
-<Markdown source={data.source}></Markdown>
+<Mathjax content={marked.parse(data.source)}></Mathjax>

@@ -4,7 +4,7 @@ export default function loadMathJax() {
   onMount(() => {
     const script = document.createElement("script")
     script.src = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
-    script.async = true;
+    script.async = false;
 
     const config = document.createElement("script")
     config.innerHTML = `
@@ -16,7 +16,7 @@ export default function loadMathJax() {
         },
       };
     `
-    config.async = true;
+    config.async = false;
 
     document.head.appendChild(script)
 
