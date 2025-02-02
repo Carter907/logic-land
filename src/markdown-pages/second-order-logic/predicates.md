@@ -14,3 +14,4 @@ Predicates are like conditional tests that evaluate to true or false depending o
 Quantifiers are often used with predicates because they can test the truth value of many different elements in a set.
 
 predicates are like generic sentences that take in a value or multiple values depending on the size of the set.
+

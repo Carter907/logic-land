@@ -16,7 +16,7 @@
         <div class="sticky top-0">
             <Nav />
         </div>
-        <article class="prose dark:prose-invert min-w-full">
+        <article class="p-4 prose dark:prose-invert min-w-full">
             {@render children()}
         </article>
     </div>
