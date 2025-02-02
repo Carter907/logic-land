@@ -21,8 +21,7 @@ bool for_each_character(char *str, int len) {
 ```
 
 this code equates to 
-$$\forall x:P(x), where\ P(x)=x\ does\ not\ have\ the\ ascii\ value\ 97$$
-
+$$\forall x:P(x), where\ P(x)=x\ does\ not\ have\ the\ ASCII\ value\ 97$$
 - This checks every character to make sure it does not equal 97. If it does the universal statement is false.
 - You can think of the conditional as a predicate that evaluates the entire expression ( the function in this case ) to false.
 

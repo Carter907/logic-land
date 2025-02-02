@@ -1,3 +1,4 @@
+
 import { onMount } from "svelte";
 
 export default function loadMathJax() {
@@ -25,4 +26,3 @@ export default function loadMathJax() {
 
   })
 }
-

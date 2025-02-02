@@ -23,6 +23,7 @@
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"@types/marked": "^5.0.2",
+		"@types/mathjax": "^0.0.40",
 		"@types/node": "^22.13.0",
 		"autoprefixer": "^10.4.20",
 		"eslint": "^9.7.0",
@@ -39,8 +40,6 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.15",
-		"@xmldom/xmldom": "^0.9.7",
-		"mathjax": "^3.2.2",
-		"mathjax-full": "^3.2.2"
+		"katex": "^0.16.21"
 	}
 }
