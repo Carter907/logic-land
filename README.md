@@ -1,38 +1,9 @@
-# sv
+# Logic Land
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This website is a comprehensive expoloration of all kinds of logical thinking. I wanted to create this no only for my own notes and curiousity, but for others so that the world becomes more logically adept. A lot of my thought around logic may not be correct, but I hope they can at least guide you to your own thinking and reflection around the fascinating field of logic. 
 
-## Creating a project
+This project is really a beginners guide, and hopefully as time goes on, I will write about more complex topics in logic. My goal is to distil the important parts of logic and how they connect with everyday english and speech, making my notes very practical.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Contributing
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Chances are someone will run into something they disagree with or want to edit in some way. Simply make a pull request and I'll determine if the change makes sense.
