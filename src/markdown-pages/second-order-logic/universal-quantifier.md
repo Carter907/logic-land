@@ -22,11 +22,15 @@ bool for_each_character(char *str, int len) {
 The code checks every character to make sure it does not equal 97. If it does the universal statement is false.
 You can think of the conditional as a predicate that evaluates the entire expression ( the function in this case ) to false.
 
-We can convert the C code to predicate logic using the universal quanitifer:
+We can convert the C code to predicate logic using the universal quantifier:
 ### $$\forall \text{character}\ x \text{ such that } x \text{ does not have the ASCII value } 97$$
 If you decode the $\forall$ to mean "every", then this declarative sentence makes sense. The only thing missing is the specification of the input set or domain. In the case of the C code, this is specified as the string argument that is passed into the function.
 
 
+### Universal Conditional Statements
 
+There exists a sub-category of universal quantifiers that employ a conditional between predicates. This is called the *universal conditional statement*. We make these statements a lot in casual generalizations.
+
+>For all trees in this orchard, If a tree is an apple tree, then it will grow fruit.
 
 

@@ -67,6 +67,16 @@
     "href": "/arguments",
     "children": [
       {
+        "name": "logical equivalences",
+        "href": "/logical-equivalences",
+        "children": []
+      },
+      {
+        "name": "valid arguments",
+        "href": "/valid-arguments",
+        "children": []
+      },
+      {
         "name": "kinds of arguments",
         "href": "/kinds-of-arguments",
         "children": []

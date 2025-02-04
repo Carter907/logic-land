@@ -10,6 +10,14 @@
 
   loadMathJax();
   afterNavigate(() => {
+    Mathjax.config({
+      tex: {
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+      },
+    });
     MathJax.typeset();
   });
 </script>
